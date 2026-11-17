@@ -1,0 +1,985 @@
+{
+  "paths": {
+    "results/supporting/attribution_feature_diagnosis": "results/archive/exploratory/attribution_feature_diagnosis",
+    "results/supporting/resnet_attribution_fusion_v2": "results/archive/exploratory/resnet_attribution_fusion_v2",
+    "results/supporting/resnet_attribution_interactions_v2": "results/archive/exploratory/resnet_attribution_interactions_v2",
+    "results/supporting/resnet_corruption_transfer": "results/archive/exploratory/resnet_corruption_transfer",
+    "results/supporting/resnet_map_robustness": "results/archive/exploratory/resnet_map_robustness",
+    "results/archive/pilots/week1_dev_clean_20.csv": "results/validation/week1_dev_clean_20.csv",
+    "results/archive/pilots/week1_dev_ig_stability.csv": "results/validation/week1_dev_ig_stability.csv",
+    "results/archive/pilots/week1_dev_gradcam_stability.csv": "results/validation/week1_dev_gradcam_stability.csv",
+    "figures/asws_one_image.png": "figures/archive/asws_one_image.png",
+    "figures/asws_severity_components.png": "figures/examples/asws_severity_components.png",
+    "figures/asws_severity_confidence.png": "figures/examples/asws_severity_confidence.png",
+    "figures/asws_severity_maps.png": "figures/examples/asws_severity_maps.png",
+    "figures/development_corruptions.png": "figures/examples/development_corruptions.png",
+    "figures/grad_cam_example.png": "figures/archive/grad_cam_example.png",
+    "figures/ig_cat.png": "figures/archive/ig_cat.png",
+    "figures/week1_dev_clean_noisy_pairs.png": "figures/archive/week1_dev_clean_noisy_pairs.png",
+    "figures/week1_dev_gradcam_heatmaps.png": "figures/validation/week1_dev_gradcam_heatmaps.png",
+    "figures/week1_dev_gradcam_stability.png": "figures/validation/week1_dev_gradcam_stability.png",
+    "figures/week1_dev_ig_convergence_heatmaps.png": "figures/validation/week1_dev_ig_convergence_heatmaps.png",
+    "figures/week1_dev_ig_stability.png": "figures/validation/week1_dev_ig_stability.png",
+    "figures/week1_grad_cam_loss_gain.png": "figures/archive/week1_grad_cam_loss_gain.png",
+    "figures/week1_ig_loss_gain.png": "figures/archive/week1_ig_loss_gain.png",
+    "results/final_blur_evaluation_run.log": "results/archive/logs/final_blur_evaluation_run.log",
+    "results/published_benchmark_500_run.log": "results/archive/logs/published_benchmark_500_run.log"
+  },
+  "files": [
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/severity_association.csv",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/severity_association.csv",
+      "sha256": "a07cf56f829c4a51eb49969909bac0c1ff1092b4ad3e2049beb1e5fcf34e193a"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/separation.csv",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/separation.csv",
+      "sha256": "e9ce11aaa634f27811e9cac72983aae8b86e7cf4499b390fd61fc1027327d4ac"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/protocol.json",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/protocol.json",
+      "sha256": "5584526d90ba5b7e975922594e78f3258885bbf15f4b5ff2d2b0058b6fa49e7b"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/FINDINGS.md",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/FINDINGS.md",
+      "sha256": "d2e1ce83c57ef9e8eab531717f6595e7fa2997f33f5c57856fca43ea7e142915"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/resnet50/severity_association.csv",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/resnet50/severity_association.csv",
+      "sha256": "0848d2c0eba66ed6d99bff0f028b6ddb6fecaac9e743dc07bf2621285481f59a"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/resnet50/excluded.csv",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/resnet50/excluded.csv",
+      "sha256": "484c671f5bd6e4dff832b4c1071af6b3232c0a92d51fe8322b29298f11b3c761"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/resnet50/separation.csv",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/resnet50/separation.csv",
+      "sha256": "136844765825ebf7dc7fe124ab96123f8ef01a7d21a7e268c740621b633e214f"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/resnet50/group_summaries.csv",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/resnet50/group_summaries.csv",
+      "sha256": "96a4600fc4a188f3d8f04123159bee0019abf61097e554b838728d3224e143ab"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/resnet50/brightness.png",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/resnet50/brightness.png",
+      "sha256": "63acab380f8873140a4c34d5414d6da09e3a6c6c0cb0e39955ff609cb33c4137"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/resnet50/eligible_observations.csv",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/resnet50/eligible_observations.csv",
+      "sha256": "27af44081bc7fe0dd15d8e7e7f3710f74a93c5c1784c21492d5e0d533a1f1b4f"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/resnet50/gaussian_noise.png",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/resnet50/gaussian_noise.png",
+      "sha256": "2aa5ac20e44094a3cf74d26b967beaeee559609ab5750bf38d3712aaf52bf12c"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/swin_t/severity_association.csv",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/swin_t/severity_association.csv",
+      "sha256": "3d5e535819752cbff268daf1e8c9a9afddb1404499d10d78ca0c22330664afc0"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/swin_t/excluded.csv",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/swin_t/excluded.csv",
+      "sha256": "4a0ca0bbd80b2ccb373a84d8924476b79655dca5d250002015e80112062e1739"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/swin_t/separation.csv",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/swin_t/separation.csv",
+      "sha256": "0dea82f29a33e3ace27af437b5e80769697edd4d9dfa4eedd27749769cb95b63"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/swin_t/group_summaries.csv",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/swin_t/group_summaries.csv",
+      "sha256": "77d6208fd3eb462c8cca75d96dcb2d78804ec53f39a4354854f38bcff59f6d7b"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/swin_t/brightness.png",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/swin_t/brightness.png",
+      "sha256": "2606c9d83a110c9ad236d84af6409c4d4b2becaef26b928054ec529f757d0a4a"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/swin_t/eligible_observations.csv",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/swin_t/eligible_observations.csv",
+      "sha256": "2829f0447fa88ea0f18c3fd683ce84892a897003eb30a5364d91596b219996ec"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/swin_t/gaussian_noise.png",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/swin_t/gaussian_noise.png",
+      "sha256": "540b23c62c35d8b01b702a8e48385a2402e62b3e66911950cf86b29f0952fb71"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/vit_b_16/severity_association.csv",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/vit_b_16/severity_association.csv",
+      "sha256": "a86ab12bc7bb692d97063f83109c19feeee51319017cda97b7f783dec8799bf1"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/vit_b_16/excluded.csv",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/vit_b_16/excluded.csv",
+      "sha256": "484c671f5bd6e4dff832b4c1071af6b3232c0a92d51fe8322b29298f11b3c761"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/vit_b_16/separation.csv",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/vit_b_16/separation.csv",
+      "sha256": "b16be94c624f6c469c23ee52f6ed7deba15bc2ea70accb525ab6e350fefbd0d6"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/vit_b_16/group_summaries.csv",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/vit_b_16/group_summaries.csv",
+      "sha256": "65ace64a030ae317d31d5295ce03d07de3f87f18d86d816fc872e51c3a571217"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/vit_b_16/brightness.png",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/vit_b_16/brightness.png",
+      "sha256": "31ca2e454ef90f9af3422cb3c26bf779b98efa0ac7effa654a3461424e0b673e"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/vit_b_16/eligible_observations.csv",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/vit_b_16/eligible_observations.csv",
+      "sha256": "a03fe63bfb1b121d761dcefc5b690b8a76908a8d085c95f84e526d392a7dfced"
+    },
+    {
+      "old_path": "results/supporting/attribution_feature_diagnosis/vit_b_16/gaussian_noise.png",
+      "new_path": "results/archive/exploratory/attribution_feature_diagnosis/vit_b_16/gaussian_noise.png",
+      "sha256": "4dcb0b486e8e74bcc30c4812c3161b51fb154080d24f706b28108fddf6faea6d"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_fusion_v2/trajectories.csv",
+      "new_path": "results/archive/exploratory/resnet_attribution_fusion_v2/trajectories.csv",
+      "sha256": "1dbdcff92d41bc948d526cfe1d0f51a7529b4fb8d7ad2a077ec0d957cb350983"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_fusion_v2/summary.csv",
+      "new_path": "results/archive/exploratory/resnet_attribution_fusion_v2/summary.csv",
+      "sha256": "efb789391c0df583ff22fe29b6d9fdd61817a2bab85b925ad1aaa302cb9daaf9"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_fusion_v2/splits.csv",
+      "new_path": "results/archive/exploratory/resnet_attribution_fusion_v2/splits.csv",
+      "sha256": "27b5bbfd4dd9bdb04f594619cdf9dec6b6bef0e9e85a5563d2675d1c719e6f7f"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_fusion_v2/excluded_trajectories.csv",
+      "new_path": "results/archive/exploratory/resnet_attribution_fusion_v2/excluded_trajectories.csv",
+      "sha256": "484c671f5bd6e4dff832b4c1071af6b3232c0a92d51fe8322b29298f11b3c761"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_fusion_v2/thresholds.csv",
+      "new_path": "results/archive/exploratory/resnet_attribution_fusion_v2/thresholds.csv",
+      "sha256": "7de03abbe3028b3479c5ead4299bdaa96a8d38fbab3537167cb9011286b3d6ac"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_fusion_v2/protocol.json",
+      "new_path": "results/archive/exploratory/resnet_attribution_fusion_v2/protocol.json",
+      "sha256": "ecc8a78bbda9343a39a000ff0088a1a01959e78c458527a6fe668985c8430935"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_fusion_v2/baseline_paired_comparisons.csv",
+      "new_path": "results/archive/exploratory/resnet_attribution_fusion_v2/baseline_paired_comparisons.csv",
+      "sha256": "a211c9bd63776416c72061e6a6e68c4cf86a3295f86cb60d2e60b4842738fa12"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_fusion_v2/fusion_paired_effects.csv",
+      "new_path": "results/archive/exploratory/resnet_attribution_fusion_v2/fusion_paired_effects.csv",
+      "sha256": "77c566c1073d8f2c2a8dba16f78504adf440d9ce2bfd443640604478d6a55a94"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_interactions_v2/trajectories.csv",
+      "new_path": "results/archive/exploratory/resnet_attribution_interactions_v2/trajectories.csv",
+      "sha256": "edc434d9adb8f470a82abe25422c85cfbc46c8e3651ae142f79dac68b61b5a1e"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_interactions_v2/summary.csv",
+      "new_path": "results/archive/exploratory/resnet_attribution_interactions_v2/summary.csv",
+      "sha256": "6601449b010cad3a7577d6c7392f763688ba1b320b2eeb5271cda21b0b0ff949"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_interactions_v2/splits.csv",
+      "new_path": "results/archive/exploratory/resnet_attribution_interactions_v2/splits.csv",
+      "sha256": "27b5bbfd4dd9bdb04f594619cdf9dec6b6bef0e9e85a5563d2675d1c719e6f7f"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_interactions_v2/excluded.csv",
+      "new_path": "results/archive/exploratory/resnet_attribution_interactions_v2/excluded.csv",
+      "sha256": "484c671f5bd6e4dff832b4c1071af6b3232c0a92d51fe8322b29298f11b3c761"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_interactions_v2/models.json",
+      "new_path": "results/archive/exploratory/resnet_attribution_interactions_v2/models.json",
+      "sha256": "992f254d6dab5d3d4d95475e38bb8bc27e97086d65b861bee898f02af9a6479b"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_interactions_v2/thresholds.csv",
+      "new_path": "results/archive/exploratory/resnet_attribution_interactions_v2/thresholds.csv",
+      "sha256": "87929ca3f6f61352e308a82025840aafae523ee8fe1e7d15b06bf7e77fbc3efd"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_interactions_v2/paired_effects.csv",
+      "new_path": "results/archive/exploratory/resnet_attribution_interactions_v2/paired_effects.csv",
+      "sha256": "1dd766928ebc91bccd2d5f7246b239af6410a7c9489fadda2efe32476c9bac3c"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_interactions_v2/next_step_predictions.csv",
+      "new_path": "results/archive/exploratory/resnet_attribution_interactions_v2/next_step_predictions.csv",
+      "sha256": "57c62bc8ef406ec088ff02aa1e2d00a905316bc738674d453d0e6c9d8da8699a"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_interactions_v2/protocol.json",
+      "new_path": "results/archive/exploratory/resnet_attribution_interactions_v2/protocol.json",
+      "sha256": "2cac8e4b939ca1d198a63e2e81b9b047b3174dd51ece377455bf03dd1ced89de"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_interactions_v2/FINDINGS.md",
+      "new_path": "results/archive/exploratory/resnet_attribution_interactions_v2/FINDINGS.md",
+      "sha256": "8f5890faac24d7799819b70607565c7e050de811d36c3b2dcfc1c318cd7ede96"
+    },
+    {
+      "old_path": "results/supporting/resnet_attribution_interactions_v2/ranking.csv",
+      "new_path": "results/archive/exploratory/resnet_attribution_interactions_v2/ranking.csv",
+      "sha256": "0d04dcc583d32b81e576a5ed8ad4e7fa61495af927ddbc5deb202583889c9b29"
+    },
+    {
+      "old_path": "results/supporting/resnet_corruption_transfer/trajectories.csv",
+      "new_path": "results/archive/exploratory/resnet_corruption_transfer/trajectories.csv",
+      "sha256": "78f4fdd89881bb4032f987cb5d2f26350182e984773fc1a9f5afd9eba422aa9a"
+    },
+    {
+      "old_path": "results/supporting/resnet_corruption_transfer/summary.csv",
+      "new_path": "results/archive/exploratory/resnet_corruption_transfer/summary.csv",
+      "sha256": "c4872a2d5835ba261c345155c3d2321187f9535e704bfd836817d6f70d9af6ca"
+    },
+    {
+      "old_path": "results/supporting/resnet_corruption_transfer/excluded.csv",
+      "new_path": "results/archive/exploratory/resnet_corruption_transfer/excluded.csv",
+      "sha256": "484c671f5bd6e4dff832b4c1071af6b3232c0a92d51fe8322b29298f11b3c761"
+    },
+    {
+      "old_path": "results/supporting/resnet_corruption_transfer/models.json",
+      "new_path": "results/archive/exploratory/resnet_corruption_transfer/models.json",
+      "sha256": "934eba6bd4bee16c545ee2fc55a3973dbb27e08e26bae7b402bc2e1ee5c3404b"
+    },
+    {
+      "old_path": "results/supporting/resnet_corruption_transfer/thresholds.csv",
+      "new_path": "results/archive/exploratory/resnet_corruption_transfer/thresholds.csv",
+      "sha256": "955e4bb2a8738ab89a5e25b96c65e443dfdf00f2405d0fa7b8ea18fd74ab2d25"
+    },
+    {
+      "old_path": "results/supporting/resnet_corruption_transfer/paired_effects.csv",
+      "new_path": "results/archive/exploratory/resnet_corruption_transfer/paired_effects.csv",
+      "sha256": "b5e92dfab95a62aca35c829f0cc2874f4fa7d348777f238ee42b706e0f671d35"
+    },
+    {
+      "old_path": "results/supporting/resnet_corruption_transfer/next_step_predictions.csv",
+      "new_path": "results/archive/exploratory/resnet_corruption_transfer/next_step_predictions.csv",
+      "sha256": "48931890d2b61e10fc1d687d8e9bd16fd3cfe9a80f7a33c82f463b52f5a7341b"
+    },
+    {
+      "old_path": "results/supporting/resnet_corruption_transfer/protocol.json",
+      "new_path": "results/archive/exploratory/resnet_corruption_transfer/protocol.json",
+      "sha256": "739bc810ba4031b814132fd63a258c91ee9ef52124777f3d035a26b125d358e3"
+    },
+    {
+      "old_path": "results/supporting/resnet_corruption_transfer/FINDINGS.md",
+      "new_path": "results/archive/exploratory/resnet_corruption_transfer/FINDINGS.md",
+      "sha256": "0650fc2f460e2f0e82672f283da1a5e349405e83d84d7ff723109f7fd38c7255"
+    },
+    {
+      "old_path": "results/supporting/resnet_corruption_transfer/memberships.csv",
+      "new_path": "results/archive/exploratory/resnet_corruption_transfer/memberships.csv",
+      "sha256": "de9d79940601c7e44fcc20faa12eb100c056789b5758fd16f03883565c1d3a9d"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/trajectories.csv",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/trajectories.csv",
+      "sha256": "17dc5b498063a91b64499fce6f7a38a43972c1397c45129e5eaccec5e41983e7"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/summary.csv",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/summary.csv",
+      "sha256": "5349f61973ef33b7dd22e19bdab4ef77e18170ddaf41902527c4d8a8683b2758"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/run.log",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/run.log",
+      "sha256": "b2f317ab952d478905324e9aa47c555f3414f02d34b3eade49f364bb106a5c20"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/thresholds.csv",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/thresholds.csv",
+      "sha256": "242bb65d27777e6638dadfe2f75096375c0a1440aadd95df46570509cc302019"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/metrics.csv",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/metrics.csv",
+      "sha256": "b4cdd9dc44199af85c7547d3bae700537ff6a72910165e0326a3cf5f904aad6f"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/smoothed_independent_splits.csv",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/smoothed_independent_splits.csv",
+      "sha256": "ce3994d523bdc45d4e219f094011b62daaab60e5be843f812c9c7fe2d851fe9e"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/matched_evaluation.log",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/matched_evaluation.log",
+      "sha256": "c2929d1278d8b46563270061d9380a1cf52bba2838be9f132924e018ffeda237"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/common_cohort.json",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/common_cohort.json",
+      "sha256": "b02aecf9f6e9b2051c9fa7e411a99a91f5bc236b1d135fce390896a6d783f6f0"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/protocol.json",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/protocol.json",
+      "sha256": "ed4f49a2c0fe8fc96909d60f7f3d6b54b4e3b0ec71aa6a0c1ef2c64990933c8e"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/FINDINGS.md",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/FINDINGS.md",
+      "sha256": "24369621978adcabde72c8365fe6ef72d379230dc1efdc847b09bdc71c612c6c"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/independent_splits.csv",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/independent_splits.csv",
+      "sha256": "ce3994d523bdc45d4e219f094011b62daaab60e5be843f812c9c7fe2d851fe9e"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/smoothed_splits.csv",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/smoothed_splits.csv",
+      "sha256": "ce3994d523bdc45d4e219f094011b62daaab60e5be843f812c9c7fe2d851fe9e"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/original_splits.csv",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/original_splits.csv",
+      "sha256": "ce3994d523bdc45d4e219f094011b62daaab60e5be843f812c9c7fe2d851fe9e"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/selected_images.csv",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/selected_images.csv",
+      "sha256": "51641648988cc928a2a57ace2f82a45ddb891e70673d5f630ea3c5e961e97d90"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/4015.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/4015.npz",
+      "sha256": "ac8043fb2f115a5f47f27679e437c40f4cd163788b469097c016d1a81282b777"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/1019.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/1019.npz",
+      "sha256": "b35828ae7ad3dcb7cd487eab705dccaa95b7b7b5a80a17a366ca6e0891d45c00"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/6986.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/6986.npz",
+      "sha256": "2e144aaa208e7f479dbdd7ee47ad9f9bb3b6d85fc2c4ba5e0e68cf569a900a65"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/3356.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/3356.npz",
+      "sha256": "12b9ddbadec2b7e0af9cf28c31e9eb908bc7c7e84f4e8db1f50e15be3d931553"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/5336.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/5336.npz",
+      "sha256": "be9d6dc18e2b866cb322485320e7e4aaf98dcd736a4f7289446574c486c10d13"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/2883.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/2883.npz",
+      "sha256": "4b47b49439388a74c31889246d7bf649616f48e0cbf8aea606f855b6305806ba"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/3779.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/3779.npz",
+      "sha256": "dfb2b19544ee39ab5df5738defd816f1e100b264d23f640823c9ef4a1467977f"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/377.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/377.npz",
+      "sha256": "f56e052504f459dc456eab0f1336d9f14e50f4f7ff6eff201f3abe37abb970b0"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/2076.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/2076.npz",
+      "sha256": "4b22000a46c30600eece6be4340b9b4307d7ffb4d5537595ac4aa0de8a8bc8e7"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/9080.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/9080.npz",
+      "sha256": "b1037afe3985b104c7b8a191a2e585ca7ad203c51b14df1aa37d853f4314ac37"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/1355.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/1355.npz",
+      "sha256": "dd6fe79d1b072f34c28c7130659d127fa30d0919d63fb9b4c5bab2bb2a433c59"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/1427.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/1427.npz",
+      "sha256": "465a2cfc0a718c18c5c20677de5438262870789eef9dc3de53e4f81236f1c9d2"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/6406.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/6406.npz",
+      "sha256": "72a3b885da1226c1c093392066621e1583823450e1575621d44c4606a2d3a27f"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/3754.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/3754.npz",
+      "sha256": "e64aa95a7ffd7a55d6fe68119d0c8275093f472b4846d623cd5e51941d203a1a"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/2516.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/2516.npz",
+      "sha256": "46fb5268607b11882c91ecbb4bb5e639b8a357453e69e4be79fcc74323131297"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/7309.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/7309.npz",
+      "sha256": "a28500a794c3da20a3f369d4dea421e89aeb390fc0516b6fba45bb998e4df51c"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/7916.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/7916.npz",
+      "sha256": "898e30607a417679277953e9a51a23aea46309c4fd858abb2d23da0423e8f7ab"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/4789.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/4789.npz",
+      "sha256": "b835f80734748505ec870b0b40e92c3aec64f5a5df34bcae81f6d913b98d2973"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/3970.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/3970.npz",
+      "sha256": "51208d9224189aab7ea5e31c078826a313dcd6f7603a445581b3cb9d006d773f"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/11589.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/11589.npz",
+      "sha256": "af41c4f806be16bf2cbf24fa00637bb425603c39b6be8e6daa7aba6e1f5e5373"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/8574.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/8574.npz",
+      "sha256": "f1c06ee54f15ddfbcff06b5272fcd427e00795a237af9ccb627373e1ca7c0654"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/3193.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/3193.npz",
+      "sha256": "bfa1eb66abfa2a4dc8bd3fc579d4a728b255ab8d286200e19f00856cdbe09c60"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/4575.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/4575.npz",
+      "sha256": "5715e63dae2ebaba92604c7974b5716cd57981ea8d1cf551356089591c94b084"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/4549.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/4549.npz",
+      "sha256": "c939636227f24be7c7fb0ac365f344bf1417d8e575c6ef78107b6da5e19b6c44"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/5195.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/5195.npz",
+      "sha256": "52a3ca252dd4af3dd80f4b66d5e6d2de340e81e907cb13589f1fd7c0b9e25632"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/2413.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/2413.npz",
+      "sha256": "11d7981659abfadcbcd1d51318a65fbedd5e134d0a043b799530689806c163a2"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/6926.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/6926.npz",
+      "sha256": "e30f3c4a5da9b829887cd81f38c834e99691079bd95e436888e2c573ca19e19e"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/7190.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/7190.npz",
+      "sha256": "d2f5b5d042ecce4382b6a67def778c6e5741696215119c945f46a38919d36728"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/5989.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/5989.npz",
+      "sha256": "b440f9b47bfcd516b05965828a6bdeabd0930f7115252d04121d0fa46a38c611"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/1279.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/1279.npz",
+      "sha256": "b4bccc579c1a8c8393f4f6624f849035acb4a4703904e011596ac859f67215b2"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/6264.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/6264.npz",
+      "sha256": "7aee24a4d8925c1ab37a6db50325d12c09184d851081b5dae409a1d2f66734a7"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/8922.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/8922.npz",
+      "sha256": "580dd9229953f018bfafad209b33dd53c3caf1257e9e2e3925a09b7e2df90e2a"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/7967.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/7967.npz",
+      "sha256": "f9458401343234673482898c0ffd16bb54cf761e0551da85eb26a28d922d8a9b"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/3240.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/3240.npz",
+      "sha256": "31a4b7b9e2ac15598133e3a0aa21ae7692d9978566123a5982cdb071c54d3d33"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/7032.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/7032.npz",
+      "sha256": "a0e1e54fafcb08db30baea7c9922a3d50bc1aef005fe52dddf4976d2dbaaa990"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/6886.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/6886.npz",
+      "sha256": "14ad3527e647f1890ab8930a62e3266215afbba9aba5f9cf13115dd2c3f194d2"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/4934.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/4934.npz",
+      "sha256": "1ee10607c4ce0de1cfa87ea0389872d45207b8682864fca27e98afcfe010830a"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/11658.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/11658.npz",
+      "sha256": "2a0b2002a52f57b17b1f0d7f2ea9b5d953b7f1ea9b123dbfb68ebd1c2d136518"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/9342.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/9342.npz",
+      "sha256": "a6a68586552b30a20e7320df10a5b875eda60294318bb44a39463ba1f7e2d7f5"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/659.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/659.npz",
+      "sha256": "ae6d9d241acaf06bf26d7de072876770d4520038e87ef829b334e2e33f3ed4bf"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/3333.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/3333.npz",
+      "sha256": "24be759ba804dfe0ab7c6c99c4c30801dc38a362259f8a118d69ab6b1cc74ee6"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/9150.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/9150.npz",
+      "sha256": "a4f29ce8c75f9a65f9749f0ed80e93b210c63305c45025db9b2ba9c7024b7e6d"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/7182.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/7182.npz",
+      "sha256": "38a543f4aabc9acd1dc7650057ba2e79d0b0c422c268a03a61739de087496fac"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/7197.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/7197.npz",
+      "sha256": "31ae54fd5bd9a0131c7d6e9943eba06f8d2d164679e49ea433e322a2ab9526a8"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/264.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/264.npz",
+      "sha256": "0656f5651f59be9db8fe8ec2d841ef8b9c83dfc411316edc0acfe799e3f155be"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/2414.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/2414.npz",
+      "sha256": "32dc37aa8224918e5b6e99c37c91e02d6cec6d2688aec365483a021698105adf"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/4073.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/4073.npz",
+      "sha256": "6443cc4610e59a287ae04180358a0819fb8d9b85d2e65b18947e50e18e342aa4"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/9594.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/9594.npz",
+      "sha256": "5b1f4954a88cb0773f764e1e4c9d7cdcb844ae6eaf1c0be172a67fa76e995b3f"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/7354.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/7354.npz",
+      "sha256": "387d5cebceb47c7666c4d866a97655bad37fbe2a1580ee83ee426b37eea095ba"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/8932.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/8932.npz",
+      "sha256": "86053e9dc8c80e666cfe484fe7b05ba841960e1bfc2c6f5086193b077e762310"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/4847.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/4847.npz",
+      "sha256": "2aa3cc8028e2800d825bf4939c5b98ee9d2e88ddc3f10370cea96cc896c097a3"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/6498.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/6498.npz",
+      "sha256": "3f424d67bbfca2d857c9db9cd84ba7f053d030017a7231fa6df230a44ffdcdc1"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/3937.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/3937.npz",
+      "sha256": "63c99861c2dd460c073034b901bebf874c7f1652f1551d8738cc6190a296343d"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/9162.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/9162.npz",
+      "sha256": "97afde7c9f0588439fde629e57a0247dc8230dc710a55581e2830b6b3b30b0c7"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/3842.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/3842.npz",
+      "sha256": "1ff00c10c1c371270877d9aa5231e5a2c6f76c6ca3e76ba1036bcd832f48dd50"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/4526.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/4526.npz",
+      "sha256": "0dae738145712137c4d980f1c214fddf9c1207aba715d9caaa14e63a39bdcff9"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/2141.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/2141.npz",
+      "sha256": "228e6a43870c805a8619bae6812b5682a232a4ff1f6206621632d1c157e5a1f4"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/5809.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/5809.npz",
+      "sha256": "3fdfc2e2a2055a7f7a0125fe3e2f02e7e451dc0d480d7a60958593f77c4c3695"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/13245.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/13245.npz",
+      "sha256": "5f17bd66abfd8809da7ab5dd4cc0dc5ec4b838f871a97bf87798e06960683cc9"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/2395.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/2395.npz",
+      "sha256": "03b27adb28f8412e0a304d468d3698e21f94d6e0f44069a2d46d1bf8571564af"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/14339.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/14339.npz",
+      "sha256": "e14c792719db976f969e4659564d6eeb2e4ba80fe6b5cb1cd75340343cde87b2"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/7363.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/7363.npz",
+      "sha256": "c98a97bd30413186e5def6abc1f825701419554a5c12f24e1b5b7a3859867723"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/11522.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/11522.npz",
+      "sha256": "467198e04d27c8995127f3a9a0739c0cbf5aa66cf5cbabb8c321381090f9ffd7"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/2151.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/2151.npz",
+      "sha256": "6b5d7b20da822a4b30939ffa6d1d9ce24617948292a19a12b6673408254a0a86"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/5172.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/5172.npz",
+      "sha256": "03aa98a7ef5f5c43ce648d9feb63159d3b327162a2f1eeb1c3fb3a4c792b7613"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/904.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/904.npz",
+      "sha256": "1991110a3b8b012da4ff8f3671c7111fe9061beff038415b1022805d7bfef121"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/2967.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/2967.npz",
+      "sha256": "9d3a2bdb1cd323ec3ef777ce8bdf1f94ccc801b3af19bd4bf26698c4a77f75c4"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/1507.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/1507.npz",
+      "sha256": "b79729e321bb85422a097e540e7c163db570232bfafbd530eac136b204d8e237"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/1088.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/1088.npz",
+      "sha256": "82badd7eaacb801cf94285dc80174e1e433c4867aa0d142f6f26613d7b1da922"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/9946.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/9946.npz",
+      "sha256": "f041c9bedd004f73d378034ca8f6da4c56ddbd268dd4fde23d1ba9a544400722"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/2608.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/2608.npz",
+      "sha256": "7dff759646455fe724315454fee37b6b95be298fedd6a0b8c8acba26da2f8500"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/11793.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/11793.npz",
+      "sha256": "1d84a5970d6cf77c50c9c99f0f78fdfc8878961d3c7096961e95293489af51b3"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/3997.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/3997.npz",
+      "sha256": "4fa761f227647b307be54ea86ddf9618f7ab549aa3f9fcc84aedb73ac55ac48f"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/6838.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/6838.npz",
+      "sha256": "b775dc4e6b8ab779800c9b8a46b8cf62ec24e0cb0bb4b7c0a1a0d9a9e910e3da"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/8587.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/8587.npz",
+      "sha256": "eb38aa893ea247558e8304e39dff0e30d05abf625934f7e0f13782751267eafa"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/220.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/220.npz",
+      "sha256": "34c2d6b5530d54d897fecfc210c73451367f15b41cb9c2a4ec5ea3c6c605d794"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/3558.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/3558.npz",
+      "sha256": "63042ced96dde31665e993a86fb21ced895aa80cc0149a732e3c5b7807a2b1df"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/13352.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/13352.npz",
+      "sha256": "f93cdb9090de0d28858f1af7de9a94e502879bb840db913844defef234c6c6bf"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/1601.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/1601.npz",
+      "sha256": "dcdefa9efd8e40715d70a2c77e5c2c4d6c3adcf6926b55d519117cecf1073f72"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/6740.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/6740.npz",
+      "sha256": "5bbd0fa26ccb1b221895cb5a30d507e2f1f746b656053016724a782ebbe0970d"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/3189.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/3189.npz",
+      "sha256": "3f5f185bb159fadca9e4a747f6ccb1dd75e1dc9c9ae70c5cf56f63b2b3dc8d6d"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/3823.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/3823.npz",
+      "sha256": "b46a5e736d4a36da2190d86a17b704b46c805b33c130afcc0706f7cfafd80738"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/3639.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/3639.npz",
+      "sha256": "5380292ad037ac1b133da78fa6fc22afc3a3f3f6665d9d42a8c5dc1dcd23cc9b"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/9704.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/9704.npz",
+      "sha256": "5e1261b15b08cb6d3c0afc83947c533fdc325942786893726f6e2ee9217e2810"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/6962.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/6962.npz",
+      "sha256": "e73dd8e6cc5ed9efb88a719fb1dae28f077d602a9e265d158ceb84f059bfaa90"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/6221.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/6221.npz",
+      "sha256": "0aed6a4b1b278bb2e336afe63f7a32ba4e114837df45210210659288bbd07e0b"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/2913.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/2913.npz",
+      "sha256": "1f1132487eb032709d41b8fd6aa1bca3ef8ed076926bbbbf4f00ac45d48cdbd1"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/1765.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/1765.npz",
+      "sha256": "6cfde47987aa11e32c62afe97fc8872d89e3b3315459fdac61c00f68fe72b665"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/346.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/346.npz",
+      "sha256": "7b7a8aceaccf16072f6549421f875e111e002712af9c5c3b064e1a6137e73f7f"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/4580.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/4580.npz",
+      "sha256": "2bc3baf39ba2872d93f858793288883993a7b8f0a6be24a57b7a228fb55c6d1c"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/3576.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/3576.npz",
+      "sha256": "5c76c1cd7bf7d5e42aa5e9808ee346f8d8fb1c252201325baf90bd825b6260f2"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/14177.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/14177.npz",
+      "sha256": "2a90f02d82af2874e8c6b30207d84355c65bb9a0e9090964e50a54b3a7eb17fd"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/5449.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/5449.npz",
+      "sha256": "197074b1493e073b7c0932b2d58fae481d7e8abd5d643b49b051bd0ed14494aa"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/8233.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/8233.npz",
+      "sha256": "bbfa3afda7126436333c4460861a214b4c38d43039aa319f3fa677f67351181b"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/8569.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/8569.npz",
+      "sha256": "ea1ddbf26294e01e99c1edbc173629be2c09f9254937fbf297fd8eb30240f1ca"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/3399.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/3399.npz",
+      "sha256": "7efdb43b9a3d2fed10c1cc1c040a368ed272a41ac4d299163ab26c7544e73fd3"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/9312.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/9312.npz",
+      "sha256": "e78616c77c54184a55a13e721b826de6cc0d65d6e4fd9fd2fd92ecec843702d8"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/8030.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/8030.npz",
+      "sha256": "1b4ce14bc53568e7cd150affd3542a4621638287f12f4552b0fe56494d654d72"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/3950.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/3950.npz",
+      "sha256": "fc38c302aef1f619b1e5bdcb79651f4ce8b147f6557a6ffabc18cbd0f70c0b24"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/maps/4232.npz",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/maps/4232.npz",
+      "sha256": "b502c505065714881cbbcbeb7e7a4b914f36dcfa793e108d7339c75f87dab365"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/superseded_unmatched/trajectories.csv",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/superseded_unmatched/trajectories.csv",
+      "sha256": "5cab9ac8ea9171fa726a88cd39ba9d6e9ef339f7b7be06c80986ae63345c30a5"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/superseded_unmatched/summary.csv",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/superseded_unmatched/summary.csv",
+      "sha256": "0bfeb988aa2eba7099be7cbb16170034666921e74ff2c40b7639a6cd7d6562c1"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/superseded_unmatched/thresholds.csv",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/superseded_unmatched/thresholds.csv",
+      "sha256": "daa561c49e35fa8442438f3e0338b579355862b032862ecc0773d80ef8ffcd96"
+    },
+    {
+      "old_path": "results/supporting/resnet_map_robustness/superseded_unmatched/common_cohort.json",
+      "new_path": "results/archive/exploratory/resnet_map_robustness/superseded_unmatched/common_cohort.json",
+      "sha256": "cd01e4eab4d55b0e992a3365a112cdfb311d0d87c66fa58b9415723e16c3f74a"
+    },
+    {
+      "old_path": "results/archive/pilots/week1_dev_clean_20.csv",
+      "new_path": "results/validation/week1_dev_clean_20.csv",
+      "sha256": "acbecdbfabd0f31b69229084309c15034835ba293476024f61f7afa5ee61f7d0"
+    },
+    {
+      "old_path": "results/archive/pilots/week1_dev_ig_stability.csv",
+      "new_path": "results/validation/week1_dev_ig_stability.csv",
+      "sha256": "03d2a01a93b09250b29643839220de1af3191faf0ae99c8735de478183bdeea1"
+    },
+    {
+      "old_path": "results/archive/pilots/week1_dev_gradcam_stability.csv",
+      "new_path": "results/validation/week1_dev_gradcam_stability.csv",
+      "sha256": "917741995342d3aa224297a194a97ae5e178928250be51994de1ec5652a1b915"
+    },
+    {
+      "old_path": "figures/asws_one_image.png",
+      "new_path": "figures/archive/asws_one_image.png",
+      "sha256": "ee6a9e0089e5b62f8fc53b7962ebc1874cb762056156ac52f5e3fd4a0d72310c"
+    },
+    {
+      "old_path": "figures/asws_severity_components.png",
+      "new_path": "figures/examples/asws_severity_components.png",
+      "sha256": "46f25f2e13d09fb173eb977b330f083d666dda6df468568872876f4fffd843e3"
+    },
+    {
+      "old_path": "figures/asws_severity_confidence.png",
+      "new_path": "figures/examples/asws_severity_confidence.png",
+      "sha256": "40d0e211abcc499d00a7e632e50010344f421aeb71857f7b63787a3b8a845eea"
+    },
+    {
+      "old_path": "figures/asws_severity_maps.png",
+      "new_path": "figures/examples/asws_severity_maps.png",
+      "sha256": "50d5bd18c496eb805a94c121ba0791dec823c7586e5547d82495aa86fff2bcdd"
+    },
+    {
+      "old_path": "figures/development_corruptions.png",
+      "new_path": "figures/examples/development_corruptions.png",
+      "sha256": "7e89a04a1919a2dd69765b11191950930bb62b242e22c889b86fadbb6db3ec01"
+    },
+    {
+      "old_path": "figures/grad_cam_example.png",
+      "new_path": "figures/archive/grad_cam_example.png",
+      "sha256": "21a6a7267bd314ef2ca7e93f419ce3b72848104822c15ea8685195a23706e941"
+    },
+    {
+      "old_path": "figures/ig_cat.png",
+      "new_path": "figures/archive/ig_cat.png",
+      "sha256": "bc5c842843eed944a80c218a27ee651db9d73880ec53baabccdc8307ca07a64b"
+    },
+    {
+      "old_path": "figures/week1_dev_clean_noisy_pairs.png",
+      "new_path": "figures/archive/week1_dev_clean_noisy_pairs.png",
+      "sha256": "f3aa6b742b14198aa7e8df95575f3e6253db29e818bba11a32848198907e32ce"
+    },
+    {
+      "old_path": "figures/week1_dev_gradcam_heatmaps.png",
+      "new_path": "figures/validation/week1_dev_gradcam_heatmaps.png",
+      "sha256": "a1f346cdc5a8a9deab85aed06f98fecb85986b2d09c4fa53f2255efee46e6331"
+    },
+    {
+      "old_path": "figures/week1_dev_gradcam_stability.png",
+      "new_path": "figures/validation/week1_dev_gradcam_stability.png",
+      "sha256": "ed4b27f3076c5b1e18c8ebe8cd5233e35f8b2bb9cb149c25a1e247b6d618fa1f"
+    },
+    {
+      "old_path": "figures/week1_dev_ig_convergence_heatmaps.png",
+      "new_path": "figures/validation/week1_dev_ig_convergence_heatmaps.png",
+      "sha256": "35cc93a93902c028b983d07d605b0e4596f2067b48c1d3af050e3da8a125abb6"
+    },
+    {
+      "old_path": "figures/week1_dev_ig_stability.png",
+      "new_path": "figures/validation/week1_dev_ig_stability.png",
+      "sha256": "647239acb89bc777dfee89570e635474586e164340590b60a62644ef05582f76"
+    },
+    {
+      "old_path": "figures/week1_grad_cam_loss_gain.png",
+      "new_path": "figures/archive/week1_grad_cam_loss_gain.png",
+      "sha256": "d54f2ead963951f623d77d655546579cac85fb295505a4a3fc8b8c4f5e98dc46"
+    },
+    {
+      "old_path": "figures/week1_ig_loss_gain.png",
+      "new_path": "figures/archive/week1_ig_loss_gain.png",
+      "sha256": "3654a3632f3665e05ac6e9189853295c2847baa4aba31058092a52837766a1b9"
+    },
+    {
+      "old_path": "results/final_blur_evaluation_run.log",
+      "new_path": "results/archive/logs/final_blur_evaluation_run.log",
+      "sha256": "5e8881d96bc48b808d6042fb25b3ae7dd6cb446704f5144006a1770c53178c7a"
+    },
+    {
+      "old_path": "results/published_benchmark_500_run.log",
+      "new_path": "results/archive/logs/published_benchmark_500_run.log",
+      "sha256": "a07ce956214f282735fee75c36ee23e7c07a5cbd6e50a929b4b3f6f0914595f5"
+    }
+  ]
+}

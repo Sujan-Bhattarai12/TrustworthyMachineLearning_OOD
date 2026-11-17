@@ -1,0 +1,17 @@
+[
+  {
+    "original": "splits/s1_train_45000.csv",
+    "archived": "splits/archive/historical_splits/s1_train_45000.csv",
+    "sha256": "f6e0ad1a9d9980e8c732782086a6d808f0273fde56d33e73066689e178eea522"
+  },
+  {
+    "original": "splits/s1_development_5000.csv",
+    "archived": "splits/archive/historical_splits/s1_development_5000.csv",
+    "sha256": "868c79fee8a454ccfd10711d33a795a7f2a8160a01d3552594acec121f607be2"
+  },
+  {
+    "original": "splits/split_manifest_v2.csv",
+    "archived": "splits/archive/historical_splits/split_manifest_v2.csv",
+    "sha256": "2fbf8528977c99415963efd885c355cff6fa42d229e685594b98967057de1e4d"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "scripts/build_final_results.py": "921479d4ef320f15dc11e99458638c5aa51dfa5b635c2d5c9148d3637c736e06",
+  "scripts/collect_attribution_metrics.py": "b3434d93b4da40653efd7a241c80f023df51b07a657e79e4a73c43044f844444",
+  "scripts/download_hf_classifiers.py": "015a68d64863730098faefc8820c4b450eea45017c6ba0f5e13523fe49590ddc",
+  "scripts/evaluate_early_warnings.py": "42613d96974fed5080f778080e211c5d70cc3a3f78b06285d75ea9fa6f67b650",
+  "scripts/evaluate_expanded_supplementary_baselines.py": "cb631495f177e0b3b8ca2ed20fa147601ce53e4b7c80293f3a49ffb138b1692f",
+  "scripts/evaluate_individual_lgd.py": "16eb4ba53f3bd08732eadbbc99014f7870afd4e011fd652b967bef912de48dc8",
+  "scripts/run_corruption_generalization.py": "c56e0fd4d0283d3753b88bcd967a4f20c8e10c1e934f2208da4c189f7c5b7bff",
+  "scripts/run_expanded_cifar10c_study.py": "3a570a2aed153d25b297996f6171eb2b1894449989d76a07a6294005bd25e7a3",
+  "src/attribution_features.py": "86ab82ab1d4ae6793560be699d6d10f3b81849d3c2007acb2bf06b3496584c33",
+  "src/benchmark_scores.py": "18a244167d16806bf87f597cad2296af5c9151af1a74db453f83459c27547d9d",
+  "src/cifar10c_loader.py": "3f54bf300654f9fab059770b9a5139c4a69ce09013178c15fa64f5fc93e75a7c",
+  "src/classifiers.py": "cbe19739f9bf5fb1e4f8d918d27f2daa880303267b6c1f8e9411bf9c2cc2e32a",
+  "src/corruptions.py": "54a4c18a11a3ce322045685b8c60efc4a8d62d1f3756de4150b58c8a2b7137d4",
+  "src/data_loader.py": "28d94fee83ad15722b0f9db07d04c27615141f5dcbf0589f96596a416ac17ef5",
+  "src/data_reservation.py": "109b919243eaede40fe6414d7164ed531bcd90c2876eff342a10b6ee1a2018e9",
+  "src/grad_cam.py": "11a2dfec33a4432b6c642e7d5804922fe769aa3d6df0b7994e02d0e7839f2335",
+  "src/integrated_gradients.py": "089d1124c6b8b07658209cf02974283e024b24ddb445785b81c4f92cc875da0f",
+  "src/paired_analysis.py": "f8eb286d00fa4f01e445ef3edc31024018def6cfcfef83f412d63efd5b3c9f90",
+  "src/supplementary_scores.py": "1d9348fdd90cb654c41f9d95cb0ff0682a8ca8623e566052404265e7971d9144",
+  "src/warning_features.py": "f70d908c6a30d1ca531f0904ac8fe65aaf79576ac40be08764f653e0f574b52d",
+  "scripts/build_official_attribution_examples.py": "ea3e79af1919c74797918bf6de10ab6519a90247716de723f1f9d931fadf8256"
+}

@@ -1,0 +1,24 @@
+# Dependencies for the current CIFAR-10/CIFAR-10-C study and reporting scripts.
+# Install with: python -m pip install -r requirements-hf.txt
+# For GPU runs, install a CUDA-compatible torch/torchvision pair first.
+# Only transformers is pinned here; this is not an exact environment lockfile.
+
+# Classifiers and checkpoint loading
+torch
+torchvision
+transformers==4.44.2
+safetensors
+
+# Attribution and optimal transport (POT provides the ot module)
+captum
+POT
+
+# Data processing, evaluation, and saved warning models
+numpy
+pandas
+scipy
+scikit-learn
+joblib
+
+# Figures and reports
+matplotlib

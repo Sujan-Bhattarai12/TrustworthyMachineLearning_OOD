@@ -1,0 +1,117 @@
+[
+  {
+    "original": "scripts/smoke_cluster_threshold.py",
+    "archived": "scripts/archive/threshold_rules/smoke_cluster_threshold.py",
+    "sha256_before": "a028a248bb5e7714957de96598442dd1dc27bb17b61a2d73f9f7e6293173b128"
+  },
+  {
+    "original": "scripts/smoke_warning_filters.py",
+    "archived": "scripts/archive/threshold_rules/smoke_warning_filters.py",
+    "sha256_before": "455199f2a57be644deb31a4496a1807aedcf0585e9e1e0bf415e763a3ec435db"
+  },
+  {
+    "original": "scripts/evaluate_supplementary_baselines_v2.py",
+    "archived": "scripts/archive/threshold_rules/evaluate_supplementary_baselines_v2.py",
+    "sha256_before": "4fe3c7a24d1089a1147fdfc2d0816187805f5fda5a8cddab503af60f8c89fdf2"
+  },
+  {
+    "original": "tests/test_cluster_threshold.py",
+    "archived": "tests/archive/threshold_rules/test_cluster_threshold.py",
+    "sha256_before": "b02c3619ec17db40457a0ec7ba100a2853b6b958ac0f8717e2598952dd375377"
+  },
+  {
+    "original": "tests/test_warning_filters.py",
+    "archived": "tests/archive/threshold_rules/test_warning_filters.py",
+    "sha256_before": "f1c9eca32e7724e8f97c6139c8f090ebed73d3a2b65d968f463ec54a76a2b65f"
+  },
+  {
+    "original": "scripts/validate_supplementary_forward.py",
+    "archived": "scripts/validation/validate_supplementary_forward.py",
+    "sha256_before": "de0c0d24444fcd6410ff38bc3111ee074fca55282dd556d405d570ccef8e6843"
+  },
+  {
+    "original": "results/classifier_benchmarks_500",
+    "archived": "results/archive/historical_custom/classifier_benchmarks_500",
+    "sha256_before": null
+  },
+  {
+    "original": "results/final_blur_evaluation",
+    "archived": "results/archive/historical_custom/final_blur_evaluation",
+    "sha256_before": null
+  },
+  {
+    "original": "results/final_project_run",
+    "archived": "results/archive/historical_custom/final_project_run",
+    "sha256_before": null
+  },
+  {
+    "original": "results/frozen_warning_methods",
+    "archived": "results/archive/historical_custom/frozen_warning_methods",
+    "sha256_before": null
+  },
+  {
+    "original": "results/clustering_threshold_smoke",
+    "archived": "results/archive/threshold_rules/clustering_threshold_smoke",
+    "sha256_before": null
+  },
+  {
+    "original": "results/warning_filter_smoke",
+    "archived": "results/archive/threshold_rules/warning_filter_smoke",
+    "sha256_before": null
+  },
+  {
+    "original": "results/warning_filter_smoke_run.log",
+    "archived": "results/archive/threshold_rules/warning_filter_smoke_run.log",
+    "sha256_before": "ebc4a82b8994ddc58ec9f2dcdd3bf7fa9795d299ea4cb147aaa7176952632628"
+  },
+  {
+    "original": "results/reporting/week4",
+    "archived": "results/archive/historical_reports/week4",
+    "sha256_before": null
+  },
+  {
+    "original": "results/reporting/attribution_error_relationships",
+    "archived": "results/archive/historical_reports/attribution_error_relationships",
+    "sha256_before": null
+  },
+  {
+    "original": "hpc/rivanna_a100.sbatch",
+    "archived": "hpc/archive/previous_runs/rivanna_a100.sbatch",
+    "sha256_before": "bd5d3516a7556a256ffbb3598863f77db4e4549cfe8aba0aa551ef9c0aa83443"
+  },
+  {
+    "original": "hpc/run_on_gpu.sh",
+    "archived": "hpc/archive/previous_runs/run_on_gpu.sh",
+    "sha256_before": "5f0a0a9b9bb0b1406f8618bb18f6eaa42cd670d2ca24e3db58cf0de2d1a477f6"
+  },
+  {
+    "original": "hpc/slurm_a100.sbatch",
+    "archived": "hpc/archive/previous_runs/slurm_a100.sbatch",
+    "sha256_before": "458a950440d93d658b93e206bde4cd5cce871f67b1336b074c6671675bfa8d90"
+  },
+  {
+    "original": "hpc/supplementary_baselines.sbatch",
+    "archived": "hpc/archive/previous_runs/supplementary_baselines.sbatch",
+    "sha256_before": "fdc4464585da35685b9c96f36f60edafdd49deadd76cdf01a5a56160d49186a6"
+  },
+  {
+    "original": "hpc/supplementary_baselines_v2.sbatch",
+    "archived": "hpc/archive/previous_runs/supplementary_baselines_v2.sbatch",
+    "sha256_before": "847c8ffc9a889432770dd5cfcd72f3f94b8e35a168256351abbf5e1c898245fd"
+  },
+  {
+    "original": "hpc/test_a100.sbatch",
+    "archived": "hpc/validation/test_a100.sbatch",
+    "sha256_before": "1851feeda85fc92a077b267974bb58aa536193336d461ba27f40ea62290ac8a6"
+  },
+  {
+    "original": "docs/WEEK4_EVALUATION.md",
+    "archived": "docs/archive/WEEK4_EVALUATION.md",
+    "sha256_before": "1a247dd281b554acc0d996eed6d90a149426282c8e4f954712745079eda00e37"
+  },
+  {
+    "original": "docs/FINAL_RERUN_PLAN.md",
+    "archived": "docs/archive/FINAL_RERUN_PLAN.md",
+    "sha256_before": "3bfa7e4d61c6132d2f69230c379e643f8338f0918fc5a9668769838d4c444180"
+  }
+]

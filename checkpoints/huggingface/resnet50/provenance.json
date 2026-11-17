@@ -1,0 +1,13 @@
+{
+  "repo_id": "edadaltocg/resnet50_cifar10",
+  "revision": "057f6b2e8bfe5330818f3478389e87d7721bbb3a",
+  "weights": "pytorch_model.bin",
+  "backend": "cifar_resnet",
+  "label_order": "standard CIFAR-10 (repository training dataset)",
+  "training_overlap": "Treat CIFAR-10 training images as potentially seen by classifier.",
+  "sha256": {
+    "config.json": "797e297bd47fbc5d87c803fddd0e0f33ac1f5a7ea61d8a578c668d58054d4bc3",
+    "README.md": "7477f044c5f8147d73f22235268196c83dc45b5e71d63365f6cf163239278daa",
+    "pytorch_model.bin": "600e3f79fa41bc7c91d751a65b29b1ed2733345f8b6908381caa79a32ff28a6e"
+  }
+}

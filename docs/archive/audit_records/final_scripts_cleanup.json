@@ -1,0 +1,50 @@
+{
+  "removed_top_level_paths": [
+    "scripts/freeze_warning_methods.py",
+    "scripts/run_cifar10c_study.py",
+    "scripts/run_corruption_panel_smoke.py",
+    "scripts/plot_attribution_error_relationships.py",
+    "scripts/evaluate_warning_models.py",
+    "scripts/run_final_evaluation.py",
+    "scripts/run_benchmark_suite.py",
+    "scripts/run_msp_baseline.py",
+    "scripts/validation"
+  ],
+  "active_scripts": [
+    "build_final_results.py",
+    "collect_attribution_metrics.py",
+    "download_hf_classifiers.py",
+    "evaluate_early_warnings.py",
+    "evaluate_expanded_supplementary_baselines.py",
+    "evaluate_individual_lgd.py",
+    "run_corruption_generalization.py",
+    "run_expanded_cifar10c_study.py"
+  ],
+  "source_edits": [
+    "scripts/run_corruption_generalization.py",
+    "scripts/evaluate_expanded_supplementary_baselines.py",
+    "tests/test_attribution_only.py",
+    "tests/test_corruption_panel.py",
+    "tests/test_comparison_missing_dropout.py",
+    "tests/test_frozen_warnings.py",
+    "tests/archive/test_fresh_trend_validation.py",
+    "scripts/archive/fresh_trend_validation.py",
+    "scripts/archive/confirm_vrex_fresh.py",
+    "scripts/archive/evaluate_fresh_ranking.py",
+    "scripts/archive/confirm_fusion_fresh.py",
+    "scripts/archive/threshold_rules/evaluate_supplementary_baselines_v2.py",
+    "scripts/archive/legacy_entrypoints/evaluate_frozen_warnings.py",
+    "scripts/archive/legacy_entrypoints/build_week4_report.py",
+    "scripts/archive/legacy_entrypoints/evaluate_warning_models.py",
+    "scripts/archive/legacy_entrypoints/evaluate_supplementary_baselines.py",
+    "scripts/archive/legacy_entrypoints/evaluate_ranking.py",
+    "hpc/additional_corruptions.sbatch"
+  ],
+  "original_sources": "docs/archive/before_final_scripts_cleanup",
+  "frozen_protocols": "Unchanged; archived historical hashes describe historical source layout, not the curated current tree. Restore original archived paths/bytes before guarded historical reruns. No fitting/evaluation/results were rerun or altered.",
+  "cleanup_error_restored": {
+    "file": "src/warning_features.py",
+    "restored_from": "/private/tmp/attribution_hpc_snapshot/src/warning_features.py",
+    "original_sha256_verified": "f70d908c6a30d1ca531f0904ac8fe65aaf79576ac40be08764f653e0f574b52d"
+  }
+}

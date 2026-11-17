@@ -1,0 +1,45 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+
+.venv-hpc/
+.python-hpc/
+.conda-package-cache/
+
+# Local build and chart scratch files
+.presentation_build/
+.chart-data-*/
+
+# Downloaded datasets (keep documentation)
+/data/*
+!/data/README.md
+
+# Downloaded model weights; retain checkpoint configuration/provenance
+/checkpoints/**/*.bin
+/checkpoints/**/*.safetensors
+/checkpoints/**/*.pt
+/checkpoints/**/*.pth
+
+# Large generated maps and serialized model artifacts
+/results/**/*.npz
+/results/**/*.npy
+/results/**/*.pkl
+/results/**/*.pickle
+/results/**/*.joblib
+
+# Local credentials
+.env
+.env.*
+!.env.example
+.aws/
+
+# Keep experiment data and generated artifacts local; publish documentation only.
+/results/**
+!/results/**/
+!/results/**/*.md
+/splits/**/*.csv
+/figures/**
+!/figures/**/
+!/figures/**/*.md
+/presentation/*.pptx

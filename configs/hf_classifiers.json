@@ -1,0 +1,24 @@
+{
+  "resnet50": {
+    "repo_id": "edadaltocg/resnet50_cifar10",
+    "revision": "057f6b2e8bfe5330818f3478389e87d7721bbb3a",
+    "weights": "pytorch_model.bin",
+    "backend": "cifar_resnet",
+    "label_order": "standard CIFAR-10 (repository training dataset)",
+    "training_overlap": "Treat CIFAR-10 training images as potentially seen by classifier."
+  },
+  "vit_b_16": {
+    "repo_id": "jialicheng/cifar10_vit-base",
+    "revision": "3af8eb826770a8ffefebbfc241842a94f3385419",
+    "weights": "model.safetensors",
+    "backend": "transformers",
+    "training_overlap": "Treat CIFAR-10 training images as potentially seen by classifier."
+  },
+  "swin_t": {
+    "repo_id": "jcollado/swin-tiny-patch4-window7-224-finetuned-cifar10",
+    "revision": "7ca1d03622f3745699d14d5c29f5001778502627",
+    "weights": "model.safetensors",
+    "backend": "transformers",
+    "training_overlap": "Treat CIFAR-10 training images as potentially seen by classifier."
+  }
+}

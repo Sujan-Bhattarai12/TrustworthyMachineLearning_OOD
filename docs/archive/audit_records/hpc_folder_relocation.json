@@ -1,0 +1,24 @@
+{
+  "original": "hpc",
+  "archived": "docs/archive/hpc_launchers",
+  "files_sha256": {
+    "requirements.txt": "71d9d7f166e4dfeb36e05c6fbe730d8ede4e73a5b9873ea1698d1e3043560901",
+    "RIVANNA.md": "ed8c8effd06b36d3e75f0de9a7a02d3aa770f50edec9867d9d2c73b628beb57d",
+    "expanded_supplementary_baselines.sbatch": "bc93f09c1fb1c984f47c6761b7c5d439c357f0f0016486211c6d1e892d8cf0a0",
+    "create_environment.sh": "b268b16badd5d11940fcdcb20acd6962ac04fecee305a43de91237cbbbcf3320",
+    "local_environment.json": "64957811430820215a5604bb2400f7ddd03b022867407cd2f00b5318b5dcc6c8",
+    "README.md": "686b17c7476cda5774747c569c68ce0d6dac995de1832455b8fcd6ac5566fb97",
+    "installed_environment.json": "e82c7a5b8a140aaa64812402d0b582de6879975ba043b432a01153a5cb404215",
+    "individual_lgd_ablations.sbatch": "84dd309bb1eda4a779e47bb5635d4e2f6a645f80395226ed81575090a1ef5aeb",
+    "expanded_cifar10c_a100.sbatch": "df581fcce896ef2ff571e30617771b0228c0e416e03fc53855d1d5e9213ae5b3",
+    "additional_corruptions.sbatch": "ba0e5073526b3234c65b665b8e6f67e67446a1b262bf6c5c0cbef019b392bb37",
+    "archive/map_similarity/fresh_map_pearson.sbatch": "8574b8de46007d33a17400c180455d0d115f8294813aa5d6ccadb8de578e60bc",
+    "archive/previous_runs/rivanna_a100.sbatch": "bd5d3516a7556a256ffbb3598863f77db4e4549cfe8aba0aa551ef9c0aa83443",
+    "archive/previous_runs/slurm_a100.sbatch": "458a950440d93d658b93e206bde4cd5cce871f67b1336b074c6671675bfa8d90",
+    "archive/previous_runs/run_on_gpu.sh": "5f0a0a9b9bb0b1406f8618bb18f6eaa42cd670d2ca24e3db58cf0de2d1a477f6",
+    "archive/previous_runs/supplementary_baselines.sbatch": "fdc4464585da35685b9c96f36f60edafdd49deadd76cdf01a5a56160d49186a6",
+    "archive/previous_runs/supplementary_baselines_v2.sbatch": "847c8ffc9a889432770dd5cfcd72f3f94b8e35a168256351abbf5e1c898245fd",
+    "validation/test_a100.sbatch": "91a83534a17312047643e945ed2709a39ea1a2dbe90a9a19ce346730549e6a9a"
+  },
+  "remote_changed": false
+}

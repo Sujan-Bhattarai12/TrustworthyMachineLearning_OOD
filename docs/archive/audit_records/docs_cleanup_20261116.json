@@ -1,0 +1,32 @@
+{
+  "relocations": {
+    "docs/archive/ARCHIVE_INDEX_BEFORE_FINAL_CLEANUP.md": "docs/archive/historical_notes/ARCHIVE_INDEX_BEFORE_FINAL_CLEANUP.md",
+    "docs/archive/DISCONTINUED_ROBUST_WARNING_EXPERIMENTS.md": "docs/archive/historical_notes/DISCONTINUED_ROBUST_WARNING_EXPERIMENTS.md",
+    "docs/archive/FINAL_RERUN_PLAN.md": "docs/archive/historical_notes/FINAL_RERUN_PLAN.md",
+    "docs/archive/HISTORICAL_EXPERIMENTS.md": "docs/archive/historical_notes/HISTORICAL_EXPERIMENTS.md",
+    "docs/archive/HISTORICAL_PROJECT_PLAN.md": "docs/archive/historical_notes/HISTORICAL_PROJECT_PLAN.md",
+    "docs/archive/INDIVIDUAL_LGD_ABLATIONS_HISTORY.md": "docs/archive/historical_notes/INDIVIDUAL_LGD_ABLATIONS_HISTORY.md",
+    "docs/archive/SUPPLEMENTARY_BASELINES_EXECUTION_HISTORY.md": "docs/archive/historical_notes/SUPPLEMENTARY_BASELINES_EXECUTION_HISTORY.md",
+    "docs/archive/WEEK4_EVALUATION.md": "docs/archive/historical_notes/WEEK4_EVALUATION.md",
+    "docs/archive/code_relocation.json": "docs/archive/audit_records/code_relocation.json",
+    "docs/archive/final_cleanup_relocation.json": "docs/archive/audit_records/final_cleanup_relocation.json",
+    "docs/archive/final_primary_integrity.json": "docs/archive/audit_records/final_primary_integrity.json",
+    "docs/archive/final_rerun_code_relocation.json": "docs/archive/audit_records/final_rerun_code_relocation.json",
+    "docs/archive/final_scripts_cleanup.json": "docs/archive/audit_records/final_scripts_cleanup.json",
+    "docs/archive/final_sync_verification.json": "docs/archive/audit_records/final_sync_verification.json",
+    "docs/archive/final_test_summary.txt": "docs/archive/audit_records/final_test_summary.txt",
+    "docs/archive/historical_split_relocation.json": "docs/archive/audit_records/historical_split_relocation.json",
+    "docs/archive/hpc_reconciliation_audit.json": "docs/archive/audit_records/hpc_reconciliation_audit.json",
+    "docs/archive/map_similarity_relocation.json": "docs/archive/audit_records/map_similarity_relocation.json",
+    "docs/archive/presentation_relocation.json": "docs/archive/audit_records/presentation_relocation.json",
+    "docs/archive/removed_create_split_entrypoint.json": "docs/archive/audit_records/removed_create_split_entrypoint.json",
+    "docs/archive/removed_duplicate_inputs.json": "docs/archive/audit_records/removed_duplicate_inputs.json",
+    "docs/archive/removed_frozen_warnings_entrypoint.json": "docs/archive/audit_records/removed_frozen_warnings_entrypoint.json",
+    "docs/archive/removed_ranking_entrypoint.json": "docs/archive/audit_records/removed_ranking_entrypoint.json",
+    "docs/archive/removed_supplementary_entrypoint.json": "docs/archive/audit_records/removed_supplementary_entrypoint.json",
+    "docs/archive/removed_week4_entrypoint.json": "docs/archive/audit_records/removed_week4_entrypoint.json",
+    "docs/archive/robustbench_checkpoint_relocation.json": "docs/archive/audit_records/robustbench_checkpoint_relocation.json",
+    "docs/archive/scripts_relocation_20261116.json": "docs/archive/audit_records/scripts_relocation_20261116.json"
+  },
+  "policy": "Historical documents and provenance retained; active documentation updated. No experiments or results changed."
+}

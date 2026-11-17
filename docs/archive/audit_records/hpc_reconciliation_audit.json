@@ -1,0 +1,248 @@
+[
+  {
+    "path": "src/attribution_features.py",
+    "hpc_sha256": "86ab82ab1d4ae6793560be699d6d10f3b81849d3c2007acb2bf06b3496584c33",
+    "local_sha256": "86ab82ab1d4ae6793560be699d6d10f3b81849d3c2007acb2bf06b3496584c33",
+    "same_bytes": true
+  },
+  {
+    "path": "src/benchmark_scores.py",
+    "hpc_sha256": "18a244167d16806bf87f597cad2296af5c9151af1a74db453f83459c27547d9d",
+    "local_sha256": "18a244167d16806bf87f597cad2296af5c9151af1a74db453f83459c27547d9d",
+    "same_bytes": true
+  },
+  {
+    "path": "src/cifar10c_loader.py",
+    "hpc_sha256": "3f54bf300654f9fab059770b9a5139c4a69ce09013178c15fa64f5fc93e75a7c",
+    "local_sha256": "3f54bf300654f9fab059770b9a5139c4a69ce09013178c15fa64f5fc93e75a7c",
+    "same_bytes": true
+  },
+  {
+    "path": "src/classifiers.py",
+    "hpc_sha256": "cbe19739f9bf5fb1e4f8d918d27f2daa880303267b6c1f8e9411bf9c2cc2e32a",
+    "local_sha256": "cbe19739f9bf5fb1e4f8d918d27f2daa880303267b6c1f8e9411bf9c2cc2e32a",
+    "same_bytes": true
+  },
+  {
+    "path": "src/corruptions.py",
+    "hpc_sha256": "54a4c18a11a3ce322045685b8c60efc4a8d62d1f3756de4150b58c8a2b7137d4",
+    "local_sha256": "54a4c18a11a3ce322045685b8c60efc4a8d62d1f3756de4150b58c8a2b7137d4",
+    "same_bytes": true
+  },
+  {
+    "path": "src/data_loader.py",
+    "hpc_sha256": "28d94fee83ad15722b0f9db07d04c27615141f5dcbf0589f96596a416ac17ef5",
+    "local_sha256": "28d94fee83ad15722b0f9db07d04c27615141f5dcbf0589f96596a416ac17ef5",
+    "same_bytes": true
+  },
+  {
+    "path": "src/data_reservation.py",
+    "hpc_sha256": "109b919243eaede40fe6414d7164ed531bcd90c2876eff342a10b6ee1a2018e9",
+    "local_sha256": "109b919243eaede40fe6414d7164ed531bcd90c2876eff342a10b6ee1a2018e9",
+    "same_bytes": true
+  },
+  {
+    "path": "src/grad_cam.py",
+    "hpc_sha256": "11a2dfec33a4432b6c642e7d5804922fe769aa3d6df0b7994e02d0e7839f2335",
+    "local_sha256": "11a2dfec33a4432b6c642e7d5804922fe769aa3d6df0b7994e02d0e7839f2335",
+    "same_bytes": true
+  },
+  {
+    "path": "src/integrated_gradients.py",
+    "hpc_sha256": "089d1124c6b8b07658209cf02974283e024b24ddb445785b81c4f92cc875da0f",
+    "local_sha256": "089d1124c6b8b07658209cf02974283e024b24ddb445785b81c4f92cc875da0f",
+    "same_bytes": true
+  },
+  {
+    "path": "src/paired_analysis.py",
+    "hpc_sha256": "f8eb286d00fa4f01e445ef3edc31024018def6cfcfef83f412d63efd5b3c9f90",
+    "local_sha256": "f8eb286d00fa4f01e445ef3edc31024018def6cfcfef83f412d63efd5b3c9f90",
+    "same_bytes": true
+  },
+  {
+    "path": "src/supplementary_scores.py",
+    "hpc_sha256": "1d9348fdd90cb654c41f9d95cb0ff0682a8ca8623e566052404265e7971d9144",
+    "local_sha256": "1d9348fdd90cb654c41f9d95cb0ff0682a8ca8623e566052404265e7971d9144",
+    "same_bytes": true
+  },
+  {
+    "path": "src/warning_features.py",
+    "hpc_sha256": "f70d908c6a30d1ca531f0904ac8fe65aaf79576ac40be08764f653e0f574b52d",
+    "local_sha256": "f70d908c6a30d1ca531f0904ac8fe65aaf79576ac40be08764f653e0f574b52d",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/build_week4_report.py",
+    "hpc_sha256": "01453f13dbebec8f2e0f56cf4c52b78332a9d38f900637a6bf253373e7e0692f",
+    "local_sha256": "01453f13dbebec8f2e0f56cf4c52b78332a9d38f900637a6bf253373e7e0692f",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/collect_attribution_metrics.py",
+    "hpc_sha256": "b3434d93b4da40653efd7a241c80f023df51b07a657e79e4a73c43044f844444",
+    "local_sha256": "b3434d93b4da40653efd7a241c80f023df51b07a657e79e4a73c43044f844444",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/create_split.py",
+    "hpc_sha256": "07db0bac4006288420a2c3f2ed14e9ad50fb27f7df12c2ebea4562ae139f77f2",
+    "local_sha256": "07db0bac4006288420a2c3f2ed14e9ad50fb27f7df12c2ebea4562ae139f77f2",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/download_hf_classifiers.py",
+    "hpc_sha256": "015a68d64863730098faefc8820c4b450eea45017c6ba0f5e13523fe49590ddc",
+    "local_sha256": "015a68d64863730098faefc8820c4b450eea45017c6ba0f5e13523fe49590ddc",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/evaluate_early_warnings.py",
+    "hpc_sha256": "42613d96974fed5080f778080e211c5d70cc3a3f78b06285d75ea9fa6f67b650",
+    "local_sha256": "42613d96974fed5080f778080e211c5d70cc3a3f78b06285d75ea9fa6f67b650",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/evaluate_expanded_supplementary_baselines.py",
+    "hpc_sha256": "ac7abba4e46dd254ddee6c7ca08f8df51d90b15b9fbe6a71766f64403f50ddb6",
+    "local_sha256": "ac7abba4e46dd254ddee6c7ca08f8df51d90b15b9fbe6a71766f64403f50ddb6",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/evaluate_frozen_warnings.py",
+    "hpc_sha256": "2c13f29cdfd570c16456aaab360f11a74f445c77a3f0b4bc2d4fa090dced5066",
+    "local_sha256": "2c13f29cdfd570c16456aaab360f11a74f445c77a3f0b4bc2d4fa090dced5066",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/evaluate_individual_lgd.py",
+    "hpc_sha256": "16eb4ba53f3bd08732eadbbc99014f7870afd4e011fd652b967bef912de48dc8",
+    "local_sha256": "16eb4ba53f3bd08732eadbbc99014f7870afd4e011fd652b967bef912de48dc8",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/evaluate_ranking.py",
+    "hpc_sha256": "b278be33077f9b6d1a1debf5fce4a0df505767cae8ca772253b9872e466bb078",
+    "local_sha256": "b278be33077f9b6d1a1debf5fce4a0df505767cae8ca772253b9872e466bb078",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/evaluate_supplementary_baselines.py",
+    "hpc_sha256": "1cc8ce63ab18b1eaabcd645e271d38aac52e5015ca4493867e1f8a66cbc37406",
+    "local_sha256": "1cc8ce63ab18b1eaabcd645e271d38aac52e5015ca4493867e1f8a66cbc37406",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/evaluate_warning_models.py",
+    "hpc_sha256": "afe4f2fc4f95e307fb36c42c97549cc561ed512225021ffcc95f39d6c11794e0",
+    "local_sha256": "afe4f2fc4f95e307fb36c42c97549cc561ed512225021ffcc95f39d6c11794e0",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/freeze_warning_methods.py",
+    "hpc_sha256": "21babd1071aa1fad22ca25d99180fc23f1fd521e8148b1c31400bac8a5e9a1d3",
+    "local_sha256": "21babd1071aa1fad22ca25d99180fc23f1fd521e8148b1c31400bac8a5e9a1d3",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/plot_attribution_error_relationships.py",
+    "hpc_sha256": "7f2b93b5343e35adfe99329e5dbc23677f65b5ecc620bd384171012343fb1881",
+    "local_sha256": "7f2b93b5343e35adfe99329e5dbc23677f65b5ecc620bd384171012343fb1881",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/run_benchmark_suite.py",
+    "hpc_sha256": "63789d0345609e39e5c5020587ee0c37417c2fc9eb30e24dcf03b45782c94366",
+    "local_sha256": "63789d0345609e39e5c5020587ee0c37417c2fc9eb30e24dcf03b45782c94366",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/run_cifar10c_study.py",
+    "hpc_sha256": "f2d57728826975ddd91aacec94e4d0e5c8efa8a59b3d2992c745e2e72d1a5a4e",
+    "local_sha256": "f2d57728826975ddd91aacec94e4d0e5c8efa8a59b3d2992c745e2e72d1a5a4e",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/run_corruption_panel_smoke.py",
+    "hpc_sha256": "f90eeaedd893f57439450a7698f5c069bc1e8f448d8f975a5ebbe0d14d3e9d9e",
+    "local_sha256": "f90eeaedd893f57439450a7698f5c069bc1e8f448d8f975a5ebbe0d14d3e9d9e",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/run_expanded_cifar10c_study.py",
+    "hpc_sha256": "3a570a2aed153d25b297996f6171eb2b1894449989d76a07a6294005bd25e7a3",
+    "local_sha256": "3a570a2aed153d25b297996f6171eb2b1894449989d76a07a6294005bd25e7a3",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/run_final_evaluation.py",
+    "hpc_sha256": "01f08bfeede26c9f9d59970e342694847ebeba1202a03eb761b1891780247018",
+    "local_sha256": "01f08bfeede26c9f9d59970e342694847ebeba1202a03eb761b1891780247018",
+    "same_bytes": true
+  },
+  {
+    "path": "scripts/run_msp_baseline.py",
+    "hpc_sha256": "e2fca618857173fd68866cba41b2abd4bf03526ac788668b068f445c59672115",
+    "local_sha256": "e2fca618857173fd68866cba41b2abd4bf03526ac788668b068f445c59672115",
+    "same_bytes": true
+  },
+  {
+    "path": "hpc/README.md",
+    "hpc_sha256": "f684dd81be03ea2216f70947249a35ec14d0ebb66f786cfbbc1dcd523cd821a9",
+    "local_sha256": "686b17c7476cda5774747c569c68ce0d6dac995de1832455b8fcd6ac5566fb97",
+    "same_bytes": false
+  },
+  {
+    "path": "hpc/RIVANNA.md",
+    "hpc_sha256": "7c4b522e106123b99cfc8b8f0e0d141fb8592eb6a2153a6e3bbe8ad53981e5ef",
+    "local_sha256": "ed8c8effd06b36d3e75f0de9a7a02d3aa770f50edec9867d9d2c73b628beb57d",
+    "same_bytes": false
+  },
+  {
+    "path": "hpc/additional_corruptions.sbatch",
+    "hpc_sha256": "7847c87d42d64e9a30371b78e53621de37e4999f2a01da635778d98d71dc8c48",
+    "local_sha256": "7847c87d42d64e9a30371b78e53621de37e4999f2a01da635778d98d71dc8c48",
+    "same_bytes": true
+  },
+  {
+    "path": "hpc/create_environment.sh",
+    "hpc_sha256": "b268b16badd5d11940fcdcb20acd6962ac04fecee305a43de91237cbbbcf3320",
+    "local_sha256": "b268b16badd5d11940fcdcb20acd6962ac04fecee305a43de91237cbbbcf3320",
+    "same_bytes": true
+  },
+  {
+    "path": "hpc/expanded_cifar10c_a100.sbatch",
+    "hpc_sha256": "df581fcce896ef2ff571e30617771b0228c0e416e03fc53855d1d5e9213ae5b3",
+    "local_sha256": "df581fcce896ef2ff571e30617771b0228c0e416e03fc53855d1d5e9213ae5b3",
+    "same_bytes": true
+  },
+  {
+    "path": "hpc/expanded_supplementary_baselines.sbatch",
+    "hpc_sha256": "bc93f09c1fb1c984f47c6761b7c5d439c357f0f0016486211c6d1e892d8cf0a0",
+    "local_sha256": "bc93f09c1fb1c984f47c6761b7c5d439c357f0f0016486211c6d1e892d8cf0a0",
+    "same_bytes": true
+  },
+  {
+    "path": "hpc/individual_lgd_ablations.sbatch",
+    "hpc_sha256": "84dd309bb1eda4a779e47bb5635d4e2f6a645f80395226ed81575090a1ef5aeb",
+    "local_sha256": "84dd309bb1eda4a779e47bb5635d4e2f6a645f80395226ed81575090a1ef5aeb",
+    "same_bytes": true
+  },
+  {
+    "path": "hpc/installed_environment.json",
+    "hpc_sha256": "e82c7a5b8a140aaa64812402d0b582de6879975ba043b432a01153a5cb404215",
+    "local_sha256": "e82c7a5b8a140aaa64812402d0b582de6879975ba043b432a01153a5cb404215",
+    "same_bytes": true
+  },
+  {
+    "path": "hpc/local_environment.json",
+    "hpc_sha256": "64957811430820215a5604bb2400f7ddd03b022867407cd2f00b5318b5dcc6c8",
+    "local_sha256": "64957811430820215a5604bb2400f7ddd03b022867407cd2f00b5318b5dcc6c8",
+    "same_bytes": true
+  },
+  {
+    "path": "hpc/requirements.txt",
+    "hpc_sha256": "71d9d7f166e4dfeb36e05c6fbe730d8ede4e73a5b9873ea1698d1e3043560901",
+    "local_sha256": "71d9d7f166e4dfeb36e05c6fbe730d8ede4e73a5b9873ea1698d1e3043560901",
+    "same_bytes": true
+  }
+]

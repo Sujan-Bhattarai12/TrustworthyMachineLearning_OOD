@@ -1,0 +1,10 @@
+{
+  "original": "checkpoints/cifar10/Linf/Standard.pt",
+  "archived": "checkpoints/archive/robustbench/cifar10/Linf/Standard.pt",
+  "sha256": "6ed1c75dad63e8ebdbef365020dd1a7eee5e79cf8a1438bd3bdc3b9c7aab3d44",
+  "bytes": 291987963,
+  "final_huggingface_checkpoints": "unchanged",
+  "status": "deleted at explicit user request",
+  "deleted_bytes": 291987963,
+  "archived_copy_retained": false
+}

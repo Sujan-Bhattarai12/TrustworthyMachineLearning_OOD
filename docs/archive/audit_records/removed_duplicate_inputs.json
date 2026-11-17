@@ -1,0 +1,12 @@
+[
+  {
+    "duplicate": "results/archive/threshold_rules/clustering_threshold_smoke/input/development.csv",
+    "retained": "results/expanded_cifar10c_5000dev_2000test/development/resnet50/images.csv",
+    "sha256": "b701087130c49ff5b69e4d8ca11811d31f860ee91e61cec3cb50bf5ae2b2f8db"
+  },
+  {
+    "duplicate": "results/archive/threshold_rules/clustering_threshold_smoke/input/test.csv",
+    "retained": "results/expanded_cifar10c_5000dev_2000test/test/resnet50/images.csv",
+    "sha256": "6280616f81bb1123bf2449b5f30128216788da5faa5b8e4b5a1f0a3887c5ff53"
+  }
+]

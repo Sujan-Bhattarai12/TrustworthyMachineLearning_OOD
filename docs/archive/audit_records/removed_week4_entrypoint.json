@@ -1,0 +1,6 @@
+{
+  "removed_path": "scripts/build_week4_report.py",
+  "retained_archive": "scripts/archive/legacy_entrypoints/build_week4_report.py",
+  "sha256": "01453f13dbebec8f2e0f56cf4c52b78332a9d38f900637a6bf253373e7e0692f",
+  "reason": "User requested removal of obsolete top-level Week 4 report entry point. Frozen result protocols unchanged; their historical code checks require restoring this path before rerunning."
+}

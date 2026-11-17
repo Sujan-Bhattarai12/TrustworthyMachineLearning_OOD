@@ -1,0 +1,5 @@
+Local: 89 tests passed in 8.497s.
+Rivanna: 89 tests passed in 27.377s.
+Final active/compatibility/validation code and launchers: 43 SHA256 matches.
+Original500-image and expanded-study frozen code hashes unchanged.
+Four figures visually checked; three tables numerically compared with recorded sources.

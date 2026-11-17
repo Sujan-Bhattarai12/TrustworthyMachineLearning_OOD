@@ -1,0 +1,7 @@
+{
+  "removed_path": "scripts/evaluate_frozen_warnings.py",
+  "retained_archive": "scripts/archive/legacy_entrypoints/evaluate_frozen_warnings.py",
+  "sha256": "2c13f29cdfd570c16456aaab360f11a74f445c77a3f0b4bc2d4fa090dced5066",
+  "test_update": "Historical regression test imports archived implementation directly.",
+  "frozen_protocols": "Unchanged. Historical hash checks require restoring the removed link before guarded reruns."
+}

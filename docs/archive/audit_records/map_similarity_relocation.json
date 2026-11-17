@@ -1,0 +1,117 @@
+[
+  {
+    "original": "scripts/local_sparse_map_pilot.py",
+    "archived": "scripts/archive/map_similarity/local_sparse_map_pilot.py",
+    "original_sha256": "682bd7b6d0e2ddde822b56637462e2eec98faeacc10643d5c469edd5d8666e60"
+  },
+  {
+    "original": "scripts/compare_sparse_operating_points.py",
+    "archived": "scripts/archive/map_similarity/compare_sparse_operating_points.py",
+    "original_sha256": "799a4c0dbde1007c7610b042fe5bc2182c9ceca0b1ae1eea8f1e184329cf3fe8"
+  },
+  {
+    "original": "scripts/evaluate_sparse_blur_transfer.py",
+    "archived": "scripts/archive/map_similarity/evaluate_sparse_blur_transfer.py",
+    "original_sha256": "dc587389ed77b578c9d6eee4dc2ed9fc4f5303a4065353a7c7b6108c23d7428d"
+  },
+  {
+    "original": "scripts/local_sparse_dot_product.py",
+    "archived": "scripts/archive/map_similarity/local_sparse_dot_product.py",
+    "original_sha256": "feec6568b7d1999bc233aa66a377b698cc4775c4cf2587a4739e2d3afbf5dbeb"
+  },
+  {
+    "original": "scripts/local_clean_projection_pilot.py",
+    "archived": "scripts/archive/map_similarity/local_clean_projection_pilot.py",
+    "original_sha256": "9e9cda4a24fef0db304157af79c220579d86911c4dc02fbc9cae81341d36760f"
+  },
+  {
+    "original": "scripts/local_sparse_pearson_pilot.py",
+    "archived": "scripts/archive/map_similarity/local_sparse_pearson_pilot.py",
+    "original_sha256": "877cd109261c5e1513bdb0293b9a1d52be7c1f19e1833e95abacf24e7a181fbe"
+  },
+  {
+    "original": "scripts/local_map_pearson_pilot.py",
+    "archived": "scripts/archive/map_similarity/local_map_pearson_pilot.py",
+    "original_sha256": "e319f6ef855ae9d1258c8f57b63c46900f3dec546a9d9c3add48775e194896a8"
+  },
+  {
+    "original": "scripts/evaluate_fresh_map_pearson.py",
+    "archived": "scripts/archive/map_similarity/evaluate_fresh_map_pearson.py",
+    "original_sha256": "43ec64e108c2fe52eab3016f4f1be667114f059ad0f1d841dc511689d251d795"
+  },
+  {
+    "original": "scripts/compare_fresh_pearson_lgd.py",
+    "archived": "scripts/archive/map_similarity/compare_fresh_pearson_lgd.py",
+    "original_sha256": "fe28d8c7cb5378d7762722ef6e58acddccff7e58623f439d254c20b9d93109c2"
+  },
+  {
+    "original": "scripts/local_lgd_pearson_combination.py",
+    "archived": "scripts/archive/map_similarity/local_lgd_pearson_combination.py",
+    "original_sha256": "d00842cf4faeb8a181f902a9a93e809a60eca1f3f119730918bd55660b85fe1d"
+  },
+  {
+    "original": "scripts/local_lgd_pearson_ablations.py",
+    "archived": "scripts/archive/map_similarity/local_lgd_pearson_ablations.py",
+    "original_sha256": "7791840cdba2b5cc450c82599f52c4281fd8c2329b6b2b4a9ef3c4febf650e2f"
+  },
+  {
+    "original": "tests/test_clean_projection.py",
+    "archived": "tests/archive/map_similarity/test_clean_projection.py",
+    "original_sha256": "4faf0fff931dae7980b02fd1d1e887c4eff1fe2bbe4da32adf9ca07a8145a6ba"
+  },
+  {
+    "original": "tests/test_fresh_map_pearson.py",
+    "archived": "tests/archive/map_similarity/test_fresh_map_pearson.py",
+    "original_sha256": "c76d8da8b8fecc431faff2c940c44787def2b62ed47f353a774a91a611923c4e"
+  },
+  {
+    "original": "tests/test_lgd_pearson_ablations.py",
+    "archived": "tests/archive/map_similarity/test_lgd_pearson_ablations.py",
+    "original_sha256": "4917c0ee8636310f44da30241fb3dac56719edff580b7c23a3413fc27a6c4739"
+  },
+  {
+    "original": "tests/test_lgd_pearson_combination.py",
+    "archived": "tests/archive/map_similarity/test_lgd_pearson_combination.py",
+    "original_sha256": "a02d995afcc99775cc791cc78984b83dcba1b8b9468b8badc2c4122ddb2e3c7f"
+  },
+  {
+    "original": "tests/test_local_sparse_map_pilot.py",
+    "archived": "tests/archive/map_similarity/test_local_sparse_map_pilot.py",
+    "original_sha256": "4f3454d3ee1f53ab34ff2bd4aad1055d3cedb8a51acf697f0a0a1fdd5c64be13"
+  },
+  {
+    "original": "tests/test_map_pearson.py",
+    "archived": "tests/archive/map_similarity/test_map_pearson.py",
+    "original_sha256": "3df571dfae340a7794a10db02e3ce37feb7ee8d41ca4804b38f12b875dbab074"
+  },
+  {
+    "original": "tests/test_sparse_dot_product.py",
+    "archived": "tests/archive/map_similarity/test_sparse_dot_product.py",
+    "original_sha256": "9d19b8cd8388f97ab1e972cd0d562b14f64c08d88d55c97448e379691ca17f65"
+  },
+  {
+    "original": "tests/test_sparse_operating_points.py",
+    "archived": "tests/archive/map_similarity/test_sparse_operating_points.py",
+    "original_sha256": "5d077afe16f5fbacbfa526b4f175a75474ab12e36683dee25724d8e72e37150f"
+  },
+  {
+    "original": "tests/test_sparse_pearson.py",
+    "archived": "tests/archive/map_similarity/test_sparse_pearson.py",
+    "original_sha256": "3c99b3aebfb8b71f523f6e27997285c1fea626282640b5ef0745085c4451a0e5"
+  },
+  {
+    "original": "hpc/fresh_map_pearson.sbatch",
+    "archived": "hpc/archive/map_similarity/fresh_map_pearson.sbatch",
+    "original_sha256": "8574b8de46007d33a17400c180455d0d115f8294813aa5d6ccadb8de578e60bc"
+  },
+  {
+    "original": "results/local_sparse_map_pilot",
+    "archived": "results/archive/map_similarity/local_sparse_map_pilot",
+    "original_sha256": null
+  },
+  {
+    "original": "results/fresh_map_pearson_200",
+    "archived": "results/archive/map_similarity/fresh_map_pearson_200",
+    "original_sha256": null
+  }
+]

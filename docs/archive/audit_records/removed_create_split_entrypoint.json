@@ -1,0 +1,6 @@
+{
+  "removed_path": "scripts/create_split.py",
+  "retained_archive": "scripts/archive/legacy_entrypoints/create_split.py",
+  "sha256": "07db0bac4006288420a2c3f2ed14e9ad50fb27f7df12c2ebea4562ae139f77f2",
+  "reason": "User requested removal of obsolete top-level split generator. Frozen historical protocols remain unchanged and require restoring the original path before guarded reruns."
+}

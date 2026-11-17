@@ -1,0 +1,13 @@
+{
+  "repo_id": "jialicheng/cifar10_vit-base",
+  "revision": "3af8eb826770a8ffefebbfc241842a94f3385419",
+  "weights": "model.safetensors",
+  "backend": "transformers",
+  "training_overlap": "Treat CIFAR-10 training images as potentially seen by classifier.",
+  "sha256": {
+    "config.json": "6302fb33edff3c084bf7ee3d154066539d3b662ab347fdf3c1b0f4d37c154ebb",
+    "README.md": "fd20edc275635657db538a42a4a9fd7b950fb88547d641eb51a344fe50de0f5d",
+    "model.safetensors": "7ecd8e053a2dc0858b0ac386624f6ac395de0c8ee7eb1ac5a449bf4793063a53",
+    "preprocessor_config.json": "ff4f6287fdbe3e1e291b826aa8b7d8e7d7789a1b8a3cc62c817391b5d9e6aa4a"
+  }
+}

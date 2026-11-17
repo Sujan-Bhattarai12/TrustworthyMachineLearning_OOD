@@ -1,0 +1,13 @@
+{
+  "repo_id": "jcollado/swin-tiny-patch4-window7-224-finetuned-cifar10",
+  "revision": "7ca1d03622f3745699d14d5c29f5001778502627",
+  "weights": "model.safetensors",
+  "backend": "transformers",
+  "training_overlap": "Treat CIFAR-10 training images as potentially seen by classifier.",
+  "sha256": {
+    "config.json": "d786596b4d8f199911bafaf9857881349180e1b9d409bdc60018f80acffd131b",
+    "README.md": "e144f035beba102d28cbe53dbb5a9f501d06a699c7627c14ebe15b8e13fc0882",
+    "model.safetensors": "7c83bf8aad1b3773dd865c83400cabadcff91ec5139acde7b9e146c0cdbb01b9",
+    "preprocessor_config.json": "5f37dd312775083c2ca1bd85b5935989cb128eb7f803aae5ba88381e4a4786b5"
+  }
+}

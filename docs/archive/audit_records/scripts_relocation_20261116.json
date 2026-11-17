@@ -1,0 +1,85 @@
+[
+  {
+    "path": "scripts/build_week4_report.py",
+    "archive": "scripts/archive/legacy_entrypoints/build_week4_report.py",
+    "sha256": "01453f13dbebec8f2e0f56cf4c52b78332a9d38f900637a6bf253373e7e0692f",
+    "compatibility_link": true
+  },
+  {
+    "path": "scripts/create_split.py",
+    "archive": "scripts/archive/legacy_entrypoints/create_split.py",
+    "sha256": "07db0bac4006288420a2c3f2ed14e9ad50fb27f7df12c2ebea4562ae139f77f2",
+    "compatibility_link": true
+  },
+  {
+    "path": "scripts/evaluate_frozen_warnings.py",
+    "archive": "scripts/archive/legacy_entrypoints/evaluate_frozen_warnings.py",
+    "sha256": "2c13f29cdfd570c16456aaab360f11a74f445c77a3f0b4bc2d4fa090dced5066",
+    "compatibility_link": true
+  },
+  {
+    "path": "scripts/evaluate_ranking.py",
+    "archive": "scripts/archive/legacy_entrypoints/evaluate_ranking.py",
+    "sha256": "b278be33077f9b6d1a1debf5fce4a0df505767cae8ca772253b9872e466bb078",
+    "compatibility_link": true
+  },
+  {
+    "path": "scripts/evaluate_supplementary_baselines.py",
+    "archive": "scripts/archive/legacy_entrypoints/evaluate_supplementary_baselines.py",
+    "sha256": "1cc8ce63ab18b1eaabcd645e271d38aac52e5015ca4493867e1f8a66cbc37406",
+    "compatibility_link": true
+  },
+  {
+    "path": "scripts/evaluate_warning_models.py",
+    "archive": "scripts/archive/legacy_entrypoints/evaluate_warning_models.py",
+    "sha256": "afe4f2fc4f95e307fb36c42c97549cc561ed512225021ffcc95f39d6c11794e0",
+    "compatibility_link": true
+  },
+  {
+    "path": "scripts/freeze_warning_methods.py",
+    "archive": "scripts/archive/legacy_entrypoints/freeze_warning_methods.py",
+    "sha256": "21babd1071aa1fad22ca25d99180fc23f1fd521e8148b1c31400bac8a5e9a1d3",
+    "compatibility_link": true
+  },
+  {
+    "path": "scripts/plot_attribution_error_relationships.py",
+    "archive": "scripts/archive/legacy_entrypoints/plot_attribution_error_relationships.py",
+    "sha256": "7f2b93b5343e35adfe99329e5dbc23677f65b5ecc620bd384171012343fb1881",
+    "compatibility_link": true
+  },
+  {
+    "path": "scripts/run_benchmark_suite.py",
+    "archive": "scripts/archive/legacy_entrypoints/run_benchmark_suite.py",
+    "sha256": "63789d0345609e39e5c5020587ee0c37417c2fc9eb30e24dcf03b45782c94366",
+    "compatibility_link": true
+  },
+  {
+    "path": "scripts/run_cifar10c_study.py",
+    "archive": "scripts/archive/legacy_entrypoints/run_cifar10c_study.py",
+    "sha256": "f2d57728826975ddd91aacec94e4d0e5c8efa8a59b3d2992c745e2e72d1a5a4e",
+    "compatibility_link": true
+  },
+  {
+    "path": "scripts/run_corruption_panel_smoke.py",
+    "archive": "scripts/archive/legacy_entrypoints/run_corruption_panel_smoke.py",
+    "sha256": "f90eeaedd893f57439450a7698f5c069bc1e8f448d8f975a5ebbe0d14d3e9d9e",
+    "compatibility_link": true
+  },
+  {
+    "path": "scripts/run_final_evaluation.py",
+    "archive": "scripts/archive/legacy_entrypoints/run_final_evaluation.py",
+    "sha256": "01f08bfeede26c9f9d59970e342694847ebeba1202a03eb761b1891780247018",
+    "compatibility_link": true
+  },
+  {
+    "path": "scripts/run_msp_baseline.py",
+    "archive": "scripts/archive/legacy_entrypoints/run_msp_baseline.py",
+    "sha256": "e2fca618857173fd68866cba41b2abd4bf03526ac788668b068f445c59672115",
+    "compatibility_link": true
+  },
+  {
+    "path": "scripts/validation",
+    "archive": "scripts/archive/validation",
+    "compatibility_link": true
+  }
+]

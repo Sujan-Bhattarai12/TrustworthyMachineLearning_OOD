@@ -1,0 +1,5 @@
+{
+  "scripts/run_asws_experiment.py": "scripts/collect_attribution_metrics.py",
+  "scripts/fit_aws_logreg.py": "scripts/evaluate_warning_models.py",
+  "scripts/run_classifier_benchmarks.py": "scripts/run_benchmark_suite.py"
+}

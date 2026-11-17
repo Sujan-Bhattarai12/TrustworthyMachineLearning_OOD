@@ -1,0 +1,7 @@
+{
+  "removed_path": "scripts/evaluate_supplementary_baselines.py",
+  "retained_archive": "scripts/archive/legacy_entrypoints/evaluate_supplementary_baselines.py",
+  "sha256": "1cc8ce63ab18b1eaabcd645e271d38aac52e5015ca4493867e1f8a66cbc37406",
+  "active_replacement": "scripts/evaluate_expanded_supplementary_baselines.py",
+  "frozen_protocols": "Unchanged. Historical guarded reruns require restoring original removed paths."
+}

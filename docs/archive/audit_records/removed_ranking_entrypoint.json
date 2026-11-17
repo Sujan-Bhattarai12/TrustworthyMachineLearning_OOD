@@ -1,0 +1,14 @@
+{
+  "removed_path": "scripts/evaluate_ranking.py",
+  "retained_archive": "scripts/archive/legacy_entrypoints/evaluate_ranking.py",
+  "sha256": "b278be33077f9b6d1a1debf5fce4a0df505767cae8ca772253b9872e466bb078",
+  "updated_imports": [
+    "tests/test_fresh_ranking.py",
+    "scripts/archive/confirm_fusion_fresh.py",
+    "scripts/archive/evaluate_fresh_ranking.py",
+    "scripts/archive/confirm_vrex_fresh.py",
+    "scripts/archive/legacy_entrypoints/build_week4_report.py"
+  ],
+  "original_archived_sources": "docs/archive/pre_ranking_import_cleanup/",
+  "frozen_protocols": "Unchanged. Historical guarded reruns require restoring removed paths and original sources."
+}
