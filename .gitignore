@@ -43,3 +43,13 @@ __pycache__/
 !/figures/**/
 !/figures/**/*.md
 /presentation/*.pptx
+
+# Curated final report figures for the GitHub README (raw data stay excluded).
+!/results/reporting/final/figure1_warning_and_false_alarms.pdf
+!/results/reporting/final/figure1_warning_and_false_alarms.png
+!/results/reporting/final/figure2_next_step_discrimination.pdf
+!/results/reporting/final/figure2_next_step_discrimination.png
+!/results/reporting/final/figure3_attribution_ablations.pdf
+!/results/reporting/final/figure3_attribution_ablations.png
+!/results/reporting/final/figure4_corruption_generalization.pdf
+!/results/reporting/final/figure4_corruption_generalization.png
